@@ -2,6 +2,8 @@
 
 Projeto em C que simula o cálculo de tempo necessário para carregar uma bateria com base na capacidade total e na porcentagem atual.
 
+Desenvolvido para simular um carregamento de carros elétricos, em parceria da GoodWe (empresa parceira FIAP)
+
 ## Funcionalidades
 
 * Cálculo da energia restante da bateria

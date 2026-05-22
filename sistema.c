@@ -58,8 +58,8 @@ int main() {
             float valor = energia_faltando * 1.2;
             if (yesorno == 'Y'){
                 printf("-------Carregamento iniciando-------\n\n");
-                for (int i = 0; i <100; i += 10){
-                    printf("---Aguarde %d porcento...---\n", i);
+                for (float i = porcentagem; i <100; i += 10){
+                    printf("---Aguarde %.2f porcento...---\n", i);
                 }
                 printf("-------Carregamento finalizado!-----\n");
                 printf("%.1f kWh foram carregados em %.1f minutos!\n", energia_faltando, tempo_carregamento);
